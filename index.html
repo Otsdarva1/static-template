@@ -5,8 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Static Template</title>
+    <link href="./stylesheet.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <h1>This is a static template, there is no bundler or bundling involved!</h1>
+    <div class="container">
+      <div class="flex-item">
+        <div class="item-kibou">貸出希望数量</div>
+        <div class="container-2">
+          <input class="item-kasidasi-value" type="tel" value="5.00"></input>
+          <button class="item-max">MAX</button>
+          <div class="container-3">
+            <div class="container-4">
+              <div class="item-jougen">上限：</div>
+              <div class="item-jougen-value">100</div>
+              <div class="item-jougen">下限：</div>
+              <div class="item-jougen-value">５</div>
+            </div>
+            <div class="item-sankou">参考</div>
+          </div>
+        </div>
+      </div>
+      <div class="flex-item">
+        <div class="item-bosyuu">貸出募集数量</div>
+        <div class="item-bosyuu-value">1000000 btc</div>
+      </div>
+    </div>
   </body>
 </html>
